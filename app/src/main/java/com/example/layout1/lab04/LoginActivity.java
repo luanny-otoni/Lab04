@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 /**
- * Created by MarileneQuintanilhaM on 24/06/2015.
+ * Created by LuannyOtoni on 08/07/2015.
  */
 public class LoginActivity extends Activity{
 
@@ -37,7 +37,7 @@ public class LoginActivity extends Activity{
                 String loginInserido = login.getText().toString();
                 String senhaInserido = senha.getText().toString();
 
-                if (loginInserido.equals("Natalia") && senhaInserido.equals("1994")) {
+                if (loginInserido.equals("Luanny") && senhaInserido.equals("1105")) {
                     result.setText("Bem vindo");
                 }
                 else{
